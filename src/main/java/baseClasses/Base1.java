@@ -37,7 +37,6 @@ public class Base1 {
 			}
 		
 			driver.get("https://www.flipkart.com/");
-			
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 				
@@ -67,6 +66,8 @@ public class Base1 {
 		}
 		return reports;
 	}
+	
+	
 	
 	
 	public static ExtentTest getTest(String testName) {
